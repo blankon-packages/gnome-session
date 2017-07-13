@@ -1,3 +1,9 @@
+gnome-session (3.22.3-1blankon3) uluwatu; urgency=medium
+
+  * Rules's file update
+
+ -- AnTo SamalonA <ansamsoftdev@gmail.com>  Thu, 13 Jul 2017 12:52:20 +0800
+
 gnome-session (3.22.3-1blankon2) uluwatu; urgency=medium
 
   * Rebuild 
