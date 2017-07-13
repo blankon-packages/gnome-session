@@ -1,7 +1,13 @@
+gnome-session (3.22.3-1blankon6) uluwatu; urgency=medium
+
+  * Rebuild
+
+ -- AnTo SamalonA <antosamalona@masDell>  Thu, 13 Jul 2017 13:55:27 +0800
+ 
 gnome-session (3.22.3-1blankon5) UNRELEASED; urgency=medium
-
+	
   * Edit control file
-
+	
  -- AnTo SamalonA <antosamalona@masDell>  Thu, 13 Jul 2017 13:27:21 +0800
 
 gnome-session (3.22.3-1blankon4) uluwatu; urgency=medium
