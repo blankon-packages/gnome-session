@@ -1,3 +1,9 @@
+gnome-session (3.22.3-1blankon7) uluwatu; urgency=medium
+
+  * Change Linux-any to any
+
+ -- AnTo SamalonA <ansamsoftdev@gmail.com>  Fri, 14 Jul 2017 20:45:59 +0800
+
 gnome-session (3.22.3-1blankon6) uluwatu; urgency=medium
 
   * Rebuild
