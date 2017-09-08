@@ -65,8 +65,8 @@ Depends: ${shlibs:Depends},
          dbus-x11,
          gsettings-desktop-schemas,
          upower (>= 0.9.0),
-         xwayland [linux-any]
-Recommends: libpam-systemd [linux-any]
+         xwayland
+Recommends: libpam-systemd
 Breaks: gdm3 (<< 3.8)
 Description: GNOME Session Manager - Minimal runtime
  The GNOME Session Manager is in charge of starting the core components

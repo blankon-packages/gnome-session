@@ -1,3 +1,9 @@
+gnome-session (3.22.3-1blankon9) uluwatu; urgency=medium
+
+  * Rebuild
+
+ -- AnTo SamalonA <ansamsoftddev@gmail.com>  Sat, 09 Sep 2017 06:01:16 +0800
+
 gnome-session (3.22.3-1blankon8) uluwatu; urgency=medium
 
   * Remove version libsystemd-dev in depends
