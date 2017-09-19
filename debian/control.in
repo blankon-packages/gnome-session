@@ -4,9 +4,8 @@ Priority: optional
 Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
 XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
-Standards-Version: 3.9.8
-Build-Depends: dh-autoreconf,
-               debhelper (>= 10),
+Standards-Version: 4.0.0
+Build-Depends: debhelper (>= 10),
                gnome-pkg-tools (>= 0.13),
                gnome-common,
                intltool (>= 0.40.6),
@@ -35,7 +34,7 @@ Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-
 Package: gnome-session
 Architecture: all
 Depends: ${misc:Depends},
-         gnome-settings-daemon (>= 3.0),
+         gnome-settings-daemon (>= 3.24),
          manokwari,
          gnome-session-bin (>= ${binary:Version}),
          gnome-session-bin (<< ${gnome:NextVersion}),

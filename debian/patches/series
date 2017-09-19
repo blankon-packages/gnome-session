@@ -1,1 +1,4 @@
-git_wayland_login_shell.patch
+0001-manager-add-bus-daemon-dbus-api-xml-file.patch
+0002-system-add-api-for-detecting-if-this-is-the-last-ses.patch
+0003-manager-kill-off-bus-clients-at-log-out.patch
+0004-fail-whale-handle-X-server-dying-before-startup.patch

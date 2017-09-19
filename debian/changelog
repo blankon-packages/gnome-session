@@ -1,57 +1,32 @@
-gnome-session (3.22.3-1blankon9) uluwatu; urgency=medium
+gnome-session (3.24.1-2blankon1) uluwatu; urgency=medium
 
-  * Rebuild
+  * New upstream release.
+  * change gnome-shell to manokwari
 
- -- AnTo SamalonA <ansamsoftddev@gmail.com>  Sat, 09 Sep 2017 06:01:16 +0800
+ -- AnTo SamalonA <ansamsoftdev@gmail.com>  Tue, 19 Sep 2017 12:41:50 +0800
 
-gnome-session (3.22.3-1blankon8) uluwatu; urgency=medium
+gnome-session (3.24.1-2) unstable; urgency=medium
 
-  * Remove version libsystemd-dev in depends
+  * Upload to unstable (Closes: #869947)
 
- -- AnTo SamalonA <ansamsoftdev@gmail.com>  Tue, 15 Aug 2017 21:35:10 +0800
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Sun, 06 Aug 2017 17:37:05 -0400
 
-gnome-session (3.22.3-1blankon7) uluwatu; urgency=medium
+gnome-session (3.24.1-1) experimental; urgency=medium
 
-  * Change Linux-any to any
+  * New upstream release.
+    - Drop debian/patches/git_wayland_login_shell.patch, applied upstream
+    - Bump gnome-settings-daemon dependency to 3.24
+    - debian/gnome-session.install: Also install gnome-dummy session file
+  * debian/control.in: Bump Standards-Version to 4.0.0 (no further changes)
+  * debian/rules: Switch default "gnome" session to wayland
+  * d/p/0001-manager-add-bus-daemon-dbus-api-xml-file.patch,
+    d/p/0002-system-add-api-for-detecting-if-this-is-the-last-ses.patch,
+    d/p/0003-manager-kill-off-bus-clients-at-log-out.patch: kill off bus
+    clients at log out, backported from upstream 3.25
+  * d/p/0004-fail-whale-handle-X-server-dying-before-startup.patch: handle X
+    server dying before startup, cherry-picked from 3.24 branch
 
- -- AnTo SamalonA <ansamsoftdev@gmail.com>  Fri, 14 Jul 2017 20:45:59 +0800
-
-gnome-session (3.22.3-1blankon6) uluwatu; urgency=medium
-
-  * Rebuild
-
- -- AnTo SamalonA <antosamalona@masDell>  Thu, 13 Jul 2017 13:55:27 +0800
- 
-gnome-session (3.22.3-1blankon5) UNRELEASED; urgency=medium
-	
-  * Edit control file
-	
- -- AnTo SamalonA <antosamalona@masDell>  Thu, 13 Jul 2017 13:27:21 +0800
-
-gnome-session (3.22.3-1blankon4) uluwatu; urgency=medium
-
-  * Change version libsystemd-dev
-
- -- AnTo SamalonA <antosamalona@masDell>  Thu, 13 Jul 2017 13:16:35 +0800
-
-gnome-session (3.22.3-1blankon3) uluwatu; urgency=medium
-
-  * Rules's file update
-
- -- AnTo SamalonA <ansamsoftdev@gmail.com>  Thu, 13 Jul 2017 12:52:20 +0800
-
-gnome-session (3.22.3-1blankon2) uluwatu; urgency=medium
-
-  * Rebuild 
-
- -- AnTo SamalonA <antosamalona@masDell>  Wed, 12 Jul 2017 07:45:59 +0800
-
-gnome-session (3.22.3-1blankon1) uluwatu; urgency=medium
-
-  * New upstream release
-  * Change gnome-shell to manokwari on depends
-
- -- AnTo SamalonA <antosamalona@masDell>  Tue, 11 Jul 2017 08:26:14 +0800
+ -- Laurent Bigonville <bigon@debian.org>  Thu, 06 Jul 2017 00:25:20 +0200
 
 gnome-session (3.22.3-1) unstable; urgency=medium
 
